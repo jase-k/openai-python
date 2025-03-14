@@ -41,7 +41,7 @@ class ResponseFileSearchToolCall(BaseModel):
     status: Literal["in_progress", "searching", "completed", "incomplete", "failed"]
     """The status of the file search tool call.
 
-    One of `in_progress`, `searching`, `incomplete` or `failed`,
+    One of `in_progress`, `searching`, `completed`, `incomplete` or `failed`,
     """
 
     type: Literal["file_search_call"]
